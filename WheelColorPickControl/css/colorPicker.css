@@ -1,0 +1,44 @@
+.preview{
+    border-radius:3px;
+    box-shadow:2px 2px 2px#444444;
+    cursor:pointer;
+    height:30px;
+    width:30px;
+}
+.rotate{
+        animation:rotation 5s infinite linear;
+        animation-play-state: running;
+    }
+    .rotate:hover{
+        animation-play-state: paused;
+    }
+    .colorpicker{
+        display:none;
+    }
+    #picker{
+        width:200px;
+        height:200px;
+    }
+    .colorpicker{
+        position:initial;
+        width:203px;
+    }
+    #picker{
+        cursor:crosshair;
+        float:left;
+        margin:10px;
+        border:0;
+    }
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+  
+   
+    
+    
+    

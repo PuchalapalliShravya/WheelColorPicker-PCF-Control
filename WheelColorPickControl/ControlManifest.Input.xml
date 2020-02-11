@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="CustomControls" constructor="WheelColorPickControl" version="0.0.1" display-name-key="WheelColorPickControl" description-key="Pick Color from the canvas" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="ColorProperty" display-name-key="ColorProperty" description-key="Contains Color Code Hex Value" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>      
+      <css path="css/colorPicker.css" order="1" />
+    </resources>    
+  </control>
+</manifest>

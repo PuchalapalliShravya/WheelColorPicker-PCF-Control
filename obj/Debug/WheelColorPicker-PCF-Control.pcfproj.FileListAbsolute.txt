@@ -1,0 +1,2 @@
+D:\Shravya\Git\WheelColorPicker-PCF-Control\obj\Debug\WheelColorPicker-PCF-Control.pcfprojAssemblyReference.cache
+D:\Shravya\Git\WheelColorPicker-PCF-Control\obj\Debug\WheelColorPicker-PCF-Control.pcfproj.CoreCompileInputs.cache
